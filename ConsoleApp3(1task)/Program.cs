@@ -14,9 +14,9 @@ namespace ConsoleApp3_1task_
 
     class School {
         List<School> schools = new List<School>();
-        int _number;
-        public School(int number) {
-            _number = number;
+       public int number;
+        public School(int numberr) {
+            number = numberr;
         }
 
         public void AddClass(School schools) {
@@ -27,9 +27,9 @@ namespace ConsoleApp3_1task_
 
     class Claas {
         List<Students> students = new List<Students>();
-        string _claasname;
-        public Claas(string claasname) {
-            _claasname = claasname;
+        public string claasname;
+        public Claas(string claasnamee) {
+            claasname = claasnamee;
         }
         public void AddStudents(Students student) {
             students.Add(student); 
@@ -38,9 +38,9 @@ namespace ConsoleApp3_1task_
     }
 
     class Students {
-        string _studentname;
-        public Students(String studentname) {
-            _studentname = studentname;
+       public  string studentname;
+        public Students(String studentnamee) {
+            studentname = studentnamee;
         }
     }
 
